@@ -1,6 +1,3 @@
-
-
-
 function solution(progresses, speeds) {
 
   // 배포 이력을 기록할 배열입니다.

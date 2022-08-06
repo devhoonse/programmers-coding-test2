@@ -1,3 +1,6 @@
+/*
+* todo: 주석 달기
+* */
 function solution(numbers, target) {
   let answer = 0;
   getAnswer(0,0);

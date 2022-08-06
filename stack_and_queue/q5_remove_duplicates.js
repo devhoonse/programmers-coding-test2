@@ -1,3 +1,6 @@
+/*
+* fixme: 이 로직은 효율성 테스트 통과 못함...
+* */
 function solution(arr) {
 
   // 결과를 담을 배열입니다.
@@ -20,11 +23,13 @@ function solution(arr) {
 }
 
 
-function solution2(arr)
-{
-  return arr.filter((val,index) => val !== arr[index+1]);
+/*
+* 다른 사람 정답
+* */
+function solution2(arr) {
+  return arr.filter((val, index) => val !== arr[index + 1]);
 }
 
 
-console.log(solution(	[1, 1, 3, 3, 0, 1, 1]));
-console.log(solution([4, 4, 4, 3, 3]));
+console.log(solution2(	[1, 1, 3, 3, 0, 1, 1]));
+console.log(solution2([4, 4, 4, 3, 3]));
